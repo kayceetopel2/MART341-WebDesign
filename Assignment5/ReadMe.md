@@ -13,3 +13,4 @@ GitHub Pages **host** our websites, and in order to view a specific page, we nee
 Canvas is our virtual **classroom** where we can access the weekly content, discussions, assignments, and quizzes.
 
 The external course website functions as our **textbook**.
+test
