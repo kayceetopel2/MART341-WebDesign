@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+h1 {
+    background-color: wheat;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: disc;
+    padding: 10px;
+}
+nav ul li {
+    display:inline;
+    margin-right: 15px;
+}
+form {
+    display:inline;
+    margin-right: 15px;
+    text-align: center;
+    background-color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    background-color: sandybrown;
+    padding: 20px;
+    border: 2px solid brown;
+}
+.my-text {
+    color: chocolate;
+}
+label {
+    color: brown;
+}
+.center-image {
+    display: block;
+    margin: auto;
+}
