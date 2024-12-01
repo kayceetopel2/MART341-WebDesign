@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Forest Drive Woodworking</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Forest Drive Woodworking</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+       <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="toggleDropdown()">Our Contact Information</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">forestdrivewoodworking@gmail.com</a>
+                    <a href="#">406-777-2222</a>
+                    <a href="#">123 Forest Drive Kalispell, MT 59901</a>
+                </div>
+            </div>
+            </nav>
+</header>
+<main>
+        <img src="https://i1.adis.ws/i/canon/future_of_forests_header_16x9_dc14bbe1e35040f79bf566eedaf5c8f7?$hero-header-half-16by9-dt$" alt="trees" class="img-fluid mb-3">
+
+        <p>If you have any questions or would like to tell us about your project, please fill out the form below:</p>
+
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="projectDescription">Tell us about your project:</label>
+                <textarea id="projectDescription" class="form-control" rows="4" placeholder="Share details about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</main>
+
+    <footer class="bg-light text-center p-3">
+        <p>© 2024 Forest Drive Woodworking</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
