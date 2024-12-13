@@ -1,0 +1,83 @@
+body {
+    font-family:'Merriweather-Regular.ttf', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgb(251, 248, 248);
+    margin: 0;
+}
+.tile {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.description {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+h1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 103, 104);
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Merriweather-Regular.ttf', sans-serif;
+    margin: 0;
+}
+nav ul {
+    list-style-type: disc;
+    padding: 10px;
+}
+nav ul li {
+    display:inline;
+    margin-right: 15px;
+    font-family: 'Merriweather-Regular.ttf', sans-serif;
+}
+form {
+    display:inline;
+    margin-right: 15px;
+    text-align: center;
+    background-color: rgb(250, 252, 252);  
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2 {
+    background-color: rgb(102, 115, 102);
+    padding: 20px;
+    border: 2px solid rgb(62, 77, 72);
+    font-family: 'Merriweather-Regular.ttf', sans-serif;
+}
+h3 {
+    color: rgb(29, 73, 123);
+    padding: 20px;
+}
+.my-text {
+    color: rgb(0, 0, 0);
+}
+label {
+    color: rgb(0, 0, 0);
+}
+@font-face {
+    font-family: 'Merriweather-Regular.ttf' ;
+    src: url('fonts/Merriweather-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+nav {
+    display: inline-block;
+}
+.post {
+    border: 1px solid #0b0b0b;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: rgb(252, 251, 250);
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+    font-family: 'Merriweather-Regular.ttf', sans-serif;
+}
+.center-image {
+    display: block;
+    margin: auto;
+}
